@@ -32,6 +32,8 @@ This **2-page Power BI interactive dashboard** analyzes AirBnB's market evolutio
 
 ---
 
+---
+
 ## 🖼️ Dashboard Preview
 
 ### **Page 1: Performance Overview**
