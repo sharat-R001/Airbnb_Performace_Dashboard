@@ -1,31 +1,25 @@
-# Airbnb_Performace_Dashboard
+📊 AirBnB Global Performance Dashboard
+📝 Project Overview
+This 2-page Power BI interactive dashboard analyzes AirBnB's market evolution from 2008 to 2020. The project transforms raw listing and review data into actionable insights regarding growth trends, pricing strategies, and regional performance across 10 major global cities.
 
-This project provides a comprehensive analysis of AirBnB listings and market trends across 10 global cities. The dashboard focuses on growth patterns, room type distribution, and host rating performance.
+🚀 Key Features & Insights
+1. Growth & Listing Trends
+Peak Growth: Identified 2015 as the year with the highest number of new listings before regulatory changes in 2016-2017 caused a market restraint.
 
+Pandemic Impact: Visualized the significant "Pre-Covid Decline" and the subsequent halt in growth in 2019.
 
-Dashboard Overview:
-The report consists of two main perspectives:
+KPI Tracking: Monitored total listings (279.7K), unique hosts (182K), and property types (144).
 
-Overview Page: Tracks the historical growth of listings (2008–2020), highlighting the impact of local regulations and the COVID-19 pandemic.
+2. Market Share & Pricing Analysis
+Revenue Dominance: Found that Paris, NY, and Sydney account for nearly 50% of total listings and 48% of total revenues.
 
-Ratings & Market Share: Analyzes market dominance by city (Paris, NY, Sydney) and breaks down average pricing and quality ratings.
+Price Benchmarking: Compared average prices across categories, showing Hotel Rooms lead at $800, followed by Entire Places at $673.
 
+Quality Metrics: Ranked cities by guest satisfaction; Mexico City and Rio de Janeiro are the best-rated, while Hong Kong and Istanbul show lower average scores.
 
+🛠️ Technical Stack
+Data Modeling: Created relationships between Listings and Reviews tables to enable cross-filtering.
 
-Key Insights:
-Growth Peaks: AirBnB reached its highest listing volume in 2015 before regulatory tightening caused a slowdown in 2016-2017.
+Data Transformation: Utilized Power Query to clean host response rates and location data.
 
-Market Leaders: Paris, New York, and Sydney account for nearly 50% of total listings and 48% of total revenue.
-
-Pricing: Hotel rooms command the highest average price ($800) compared to Entire Places ($673) and Private Rooms ($462).
-
-Top Rated: Mexico City and Rio de Janeiro hold the highest average ratings, while Hong Kong and Istanbul score lower on average.
-
-
-
-Technical Toolkit:
-Power BI Desktop: For data modeling and visualization.
-
-Power Query: Used for data cleaning and transformation of raw AirBnB CSV datasets.
-
-DAX: Implemented for calculated measures like Cumulative Percentages and Average Ratings.
+Visualization: Built custom line charts with annotations, Pareto-style market share bars, and heat-mapped rating matrices.
